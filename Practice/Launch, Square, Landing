@@ -13,8 +13,8 @@ print(f"Battery Life Percentage: {battery_level}")
 print("Takeoff!")
 tello.takeoff()
 
-print("Sleep for 5 seconds")
-time.sleep(5)
+print("Sleep for 2 seconds")
+time.sleep(2)
 
 print("Rotate Clockwise")
 tello.rotate_clockwise(90)
@@ -22,26 +22,26 @@ tello.rotate_clockwise(90)
 print("Move Forward")
 tello.move_forward(40)
 
-print("Rotate Counter Clockwise")
-tello.rotate_counter_clockwise(90)
+print("Rotate Clockwise")
+tello.rotate_clockwise(90)
 
 print("Move Forward")
 tello.move_forward(40)
 
-print("Rotate Counter Clockwise")
-tello.rotate_counter_clockwise(90)
+print("Rotate Clockwise")
+tello.rotate_clockwise(90)
 
 print("Move Forward")
 tello.move_forward(40)
 
-print("Rotate Counter Clockwise")
-tello.rotate_counter_clockwise(90)
+print("Rotate Clockwise")
+tello.rotate_clockwise(90)
 
 print("Move Forward")
 tello.move_forward(40)
 
-print("Sleep for 5 seconds")
-time.sleep(5)
+print("Sleep for 2 seconds")
+time.sleep(2)
 
 print("landing")
 tello.land()
