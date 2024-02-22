@@ -7,3 +7,28 @@ IMU: 중력 측정 장치
 <n>velocity=speed+direction
 <b>카메라 없이도 sensor로 회전 각도 등을 알 수 있음
 GPS를 이용할 경우 건물 내에서는 잘 안 될 수 있음
+매우 작은 MEMS sensor
+중력 가속도 9.8 m/s2
+
+gyrose: degree per second
+
+*latest computer의 2가지 한계*
+1) 무한소수를 끊어읽지 않음
+2) 순서를 지켜야 함. sequencial
+
+integration gives you an error
+
+
+도착 지점으로 정확하게 착륙하지 않음. -- 적분을 두 번해야(accelator m/s2)->거리(m)가 나오기 때문에 완전히 정확한 숫자가 나올 수 없다.
+
+오일러 각(Euler angle)
+
+*세 개의 satellite만 있으면 나의 위치를 G{S로 측정할 수 있다.*
+
+Time of flight (TOF)
+
+Ultrasound: sound를 측정
+IR sensor: light을 측정
+
+센서는 200cemtemer 이상은 읽을 수 없음
+
