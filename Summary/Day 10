@@ -1,0 +1,9 @@
+Inertial 관성의 <br>
+All object has inertia. Everybody has different inertia. <br?
+
+*sensors*<br>
+IMU: 중력 측정 장치
+<b>m/s
+<n>velocity=speed+direction
+<b>카메라 없이도 sensor로 회전 각도 등을 알 수 있음
+GPS를 이용할 경우 건물 내에서는 잘 안 될 수 있음
